@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# But include only solution file and gitignore
+!*.sln
+!.gitignore
+.vs/
