@@ -142,6 +142,18 @@ public partial class AppDbContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
 
+            //added new
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Behaviour>()
+       .HasOne(b => b.Student)
+       .WithMany(s => s.Behaviours)
+       .HasForeignKey(b => b.StudentId);
+
+            modelBuilder.Entity<Behaviour>()
+                .HasOne(b => b.Teacher)
+                .WithMany() // if Teacher has no collection of Behaviours
+                .HasForeignKey(b => b.TeacherId);
+
             entity.HasOne(d => d.Student).WithMany(p => p.Behaviours)
                 .HasForeignKey(d => d.StudentId)
                 .HasConstraintName("FK__behaviour__stude__6A30C649");
@@ -335,7 +347,7 @@ public partial class AppDbContext : DbContext
 
         modelBuilder.Entity<SchoolClass>(entity =>
         {
-            entity.HasKey(e => e.ClassId).HasName("PK__school_c__FDF4798682740BD8");
+            //entity.HasKey(e => e.ClassId).HasName("PK__school_c__FDF4798682740BD8");
 
             entity.ToTable("school_class");
 
@@ -433,9 +445,9 @@ public partial class AppDbContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
 
-            entity.HasOne(d => d.Parent).WithMany(p => p.StudentParents)
-                .HasForeignKey(d => d.ParentId)
-                .HasConstraintName("FK__student_p__paren__571DF1D5");
+            //entity.HasOne(d => d.Parent).WithMany(p => p.StudentParents)
+            //    .HasForeignKey(d => d.ParentId)
+            //    .HasConstraintName("FK__student_p__paren__571DF1D5");
 
             entity.HasOne(d => d.Student).WithMany(p => p.StudentParents)
                 .HasForeignKey(d => d.StudentId)
