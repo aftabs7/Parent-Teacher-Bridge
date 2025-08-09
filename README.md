@@ -36,20 +36,23 @@ It centralizes student data — attendance, performance, behavior, and events �
 
 ---
 
-## **📊 Major Outcomes**
-- Improved parent-teacher connection
-- Digital student record management
-- One-stop dashboard for all student updates
-- Reduced teacher administrative load
+📊 Outcomes
+Improved communication between parents and teachers, fostering stronger relationships and better student support.
 
----
+Seamless digital management of student records, making data access and updates more efficient.
 
-## **🔮 Future Scope**
-- **Performance Analytics** – Graphical insights & auto-generated progress reports.
-- **Mobile App** – Android & iOS versions with push notifications.
-- **Online Payments & Homework** – Fee payments & homework tracking.
-- **Biometric Attendance** – Fingerprint and facial recognition.
+A centralized dashboard that provides real-time updates on student activities, attendance, and academic progress.
 
+Significant reduction in administrative workload for teachers, allowing them to focus more on teaching and student engagement.
+
+🔮 Future Scope
+Integration of performance analytics and automated progress reports to help track student growth over time.
+
+Development of a mobile app for Android and iOS, featuring push notifications for instant updates and reminders.
+
+Support for online fee payments and homework tracking to streamline daily operations for schools and parents.
+
+Implementation of biometric attendance systems using fingerprint and facial recognition for secure and accurate tracking.
 ---
 
 ## **📌 Conclusion**
