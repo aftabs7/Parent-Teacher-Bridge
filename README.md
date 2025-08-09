@@ -1,29 +1,36 @@
 📚 Parent-Teacher Bridge – Web Application
-The Parent-Teacher Bridge is a web-based platform designed to streamline communication and information sharing between teachers and parents.
-It centralizes student data—attendance, performance, behavior, and events—into a single accessible dashboard, improving collaboration for better student outcomes.
+The Parent-Teacher Bridge is a web-based platform designed to streamline communication between teachers and parents.
+It centralizes student data—attendance, performance, behavior, and events—into a single accessible dashboard, fostering stronger collaboration for better student outcomes.
 
 🚀 Features
 Centralized Communication – One platform for all teacher-parent updates.
 
-Teacher Updates – Attendance, behavior, performance, and event details.
+Teacher Tools – Easily update attendance, performance, behavior, and event details.
 
-Parent Dashboard – Easy, single-view access to all student information.
+Parent Dashboard – Single-view access to all student records.
 
-Direct Messaging – Secure, built-in messaging between teachers and parents.
+Secure Messaging – Built-in private messaging between teachers and parents.
 
-Admin Control – Manage teacher accounts with controlled access.
+Admin Control – Manage teachers, parents, and access permissions.
 
-🎯 Key Objectives
-Improve Communication – Bridge the gap between parents and teachers with timely updates.
+🎯 Objectives
+Improve Communication – Deliver timely updates and important announcements.
 
-Minimize Teacher Workload – Simple tools to quickly update student records.
+Reduce Teacher Workload – Quick, efficient tools for managing student records.
 
-Enhance Parental Involvement – Empower parents to actively participate in their child’s education.
+Increase Parental Engagement – Help parents stay involved in their child’s education.
 
-Streamline School Processes – Replace outdated paper reports and SMS with a modern solution.
+Digitize School Processes – Move away from paper reports & SMS toward a modern digital system.
 
-🛠️ Technical Specifications
-Hardware Requirements
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
+Backend: ASP.NET Core Web API (.NET 8)
+Database: MS SQL Server
+Authentication: JWT
+Security: BCrypt password hashing
+
+💻 System Requirements
+Hardware:
 
 Processor: Intel i3 or higher
 
@@ -31,35 +38,31 @@ RAM: 6 GB or more
 
 OS: Windows 10 or equivalent
 
-Software Requirements
+Software:
 
-Backend: .NET Framework
+Visual Studio / VS Code
 
-Frontend: React.js, Tailwind CSS
+SQL Server Management Studio (SSMS)
 
-Database: MS SQL
+Node.js & npm
 
-📊 Major Outcomes
-Improved parent-teacher connection.
+📊 Outcomes
+Stronger parent-teacher connection
 
-Digital student record management.
+Digital student record management
 
-One-stop dashboard for all student updates.
+Centralized dashboard for updates
 
-Reduced teacher administrative load.
+Reduced administrative burden on teachers
 
 🔮 Future Scope
-Performance Analytics – Graphical insights & auto-generated progress reports.
+Performance analytics & auto-generated progress reports
 
-Mobile App – Android & iOS versions with push notifications.
+Mobile app (Android & iOS) with push notifications
 
-Online Payments & Homework – Fee payments & homework tracking.
+Online payments & homework tracking
 
-Biometric Attendance – Fingerprint and facial recognition.
-
-📌 Conclusion
-The Parent-Teacher Bridge is a smart, secure, and efficient way to improve school communication.
-By centralizing student data, it empowers parents, reduces teacher workload, and ensures better academic collaboration.
+Biometric attendance (fingerprint & facial recognition)
 
 👥 Contributors
 Anis Shikalgar (250245920013)
@@ -73,4 +76,4 @@ Vinay Hire (250245920094)
 Yash Chatse (250245920097)
 
 📄 License
-This project is licensed under the MIT License – feel free to use, modify, and distribute.
+This project is licensed under the MIT License – you are free to use, modify, and distribute it.
